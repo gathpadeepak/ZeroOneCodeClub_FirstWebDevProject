@@ -1,11 +1,10 @@
-* {
-    padding : 0;
+*{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 .container {
-    height:  100vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,10 +17,9 @@
     flex-direction: column;
 }
 
-.cardone {
+.card-one {
     width: 100%;
 }
-
 .card-one img {
     width: 100%;
 }
@@ -29,6 +27,7 @@
 .card-two {
     width: 100%;
     padding: 1rem;
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -37,14 +36,13 @@
 }
 
 .card-two h2 {
-  font-size: 1.2rem;
-  margin-bottom: 1.2rem;
-  color: grey;
+    font-size: 1.2rem;
+    color: gray;
 }
 
 .card-two a {
     text-decoration: none;
     background-color: black;
     color: white;
-    padding: 5px 10px;
+    padding: 1px 10px;
 }
